@@ -7,7 +7,7 @@ import email from "../../Assets/email.png";
 function Footer() {
   return (
     <footer className="w-100 mt-auto bg-secondary p-4">
-      <div className="container flex-row justify-space-between-lg justify-center align-center">
+      <div className="container flex-row space-between justify-center align-center">
         <div className="social">
           <a href="mailto:regettaspearman@gmail.com">
             <img className="social" src={email} alt="Email Icon"></img>
