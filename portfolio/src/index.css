@@ -98,16 +98,6 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-  color: var(--tertiary);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 header {
   background: var(--dark);
 }
@@ -160,6 +150,10 @@ img {
   padding-right: 20px;
 }
 
+.social img:hover {
+  opacity: .8;
+}
+
 span[role="img"] {
   cursor: default;
 }
@@ -209,6 +203,17 @@ textarea {
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.two-column {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.two-column li {
+  list-style: square;
 }
 
 .flex-row {
@@ -294,8 +299,14 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  width: 50%;
   text-align: center;
+  flex-wrap: wrap;
+  border: 2px solid #A16900;
+}
+
+.card-title {
+  border-bottom: 2px solid #A16900;
 }
 
 .img-thumbnail {
@@ -345,12 +356,16 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--tertiary);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
-	
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .navActive {
