@@ -15,7 +15,7 @@ function Header(props) {
   return (
     <header className="bg-secondary mb-4 py-2 flex-row align-center">
       <div className="container flex-row justify-space-between justify-center align-center">
-        <a href="/"><h1 className='mx-4'>RK's Portfolio</h1></a>
+        <a href="/"><h1 className='mx-4'>RK Harris Portfolio</h1></a>
       </div>
     <nav className="text-center container flex-row justify-space-between-lg justify-center align-center">
     <ul className="flex-row">

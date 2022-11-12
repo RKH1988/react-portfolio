@@ -14,7 +14,7 @@ function About() {
           <p>
             As a recent graduate of the November 2022 UNC Coding Bootcamp
             Cohort, I have increased my skillset to encompass full-stack
-            web-development. My background is in accounting and fundraising. My
+            web development. My background is in accounting and fundraising. My
             passion is utilizing my talents to help others, for I believe that
             fulfillment comes when we are selfless.
           </p>

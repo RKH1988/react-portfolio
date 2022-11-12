@@ -1,3 +1,17 @@
+:root {
+  --primary: #7C0000;
+  --secondary: #A16900;
+  --tertiary: #F7B000;
+  --light: #f0d6c3fd;
+  --dark: #533a0b;
+  --darker: #550202;
+  --error: rgb(255, 53, 2);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,19 +33,6 @@ main {
   padding: 50px 30px;
 }
 
-:root {
-  --primary: #7C0000;
-  --secondary: #A16900;
-  --tertiary: #F7B000;
-  --light: #f0d6c3fd;
-  --dark: #533a0b;
-  --darker: #550202;
-  --error: rgb(255, 53, 2);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
-
-}
 
 * {
   box-sizing: border-box;
@@ -84,14 +85,6 @@ h4 {
   font-size: 1.5rem;
 }
 
-h5 {
-  font-size: 1.25rem;
-}
-
-h6 {
-  font-size: 1rem;
-}
-
 p {
   font-size: 1.1rem;
   margin-top: 0;
@@ -104,8 +97,8 @@ header {
 
 footer {
   background: var(--dark);
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
   width: 100%;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -316,32 +309,6 @@ textarea {
   cursor: pointer;
 }
 
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
-
 button {
 	background: var(--primary);
 	border: 0;
@@ -371,4 +338,95 @@ a:hover {
 .navActive {
   color: var(--tertiary);
   background-color: var(--primary);
+}
+
+.relative {
+  position: relative;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.projects img {
+  object-fit: cover;
+  filter: brightness(40%);
+  opacity: .5;
+  width: 100%;
+  align-items: center;
+}
+
+.projects img:hover {
+  filter: brightness(100%);
+  opacity: .5;
+}
+
+.project-details {
+  color: var(--tertiary); 
+  top: 0px;
+  left: 10px;
+  /* bottom: 20px; */
+  position: absolute;
+}
+
+.project-details img {
+  background-color: white;
+}
+
+.gitHub {
+  max-width: 25px;
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  section {
+      padding: 15px;
+  }
+
+  .contact-info div {
+      margin: 5px 0 10px 0;
+  }
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  section {
+      padding: 15px;
+  }
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  header {
+      width: 100%;
+  }
+
+  header h1 {
+      width: 100%;
+  }
+
+  header nav ul li a {
+      font-size: 10px;
+  }
+
+  .flex-row {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  .container {
+      flex-direction: column;
+  }
+
+  .project-details h5 {
+      font-size: 10px;
+  }
+
+  .project-details h6 {
+    font-size: 8px;
+  }
 }
