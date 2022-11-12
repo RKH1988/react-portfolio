@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/RKHPortfolio/static/css/main.520ffc02.css",
-    "main.js": "/RKHPortfolio/static/js/main.1557d1b3.js",
-    "static/js/787.1ed0c42c.chunk.js": "/RKHPortfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/event-finder.png": "/RKHPortfolio/static/media/event-finder.fd222fb33be7ef0bb2ab.png",
-    "static/media/D3-lawncare.png": "/RKHPortfolio/static/media/D3-lawncare.65001607bb0fcd41b90c.png",
-    "static/media/run-buddy.jpg": "/RKHPortfolio/static/media/run-buddy.6f63dff251a8b44a3677.jpg",
-    "static/media/resume.pdf": "/RKHPortfolio/static/media/resume.efcfec244aeb9474bc2c.pdf",
-    "static/media/nim-portal.png": "/RKHPortfolio/static/media/nim-portal.70629b9d30cadd81a443.png",
-    "static/media/headshot.jpg": "/RKHPortfolio/static/media/headshot.e9509186d9c5744b2081.jpg",
-    "static/media/dash-of-weather.png": "/RKHPortfolio/static/media/dash-of-weather.6e03759af290e126582a.png",
-    "static/media/work-day-scheduler.png": "/RKHPortfolio/static/media/work-day-scheduler.75e0547dc0c29673200a.png",
-    "static/media/email.png": "/RKHPortfolio/static/media/email.f628a8f768c64821ae3d.png",
-    "index.html": "/RKHPortfolio/index.html",
-    "main.520ffc02.css.map": "/RKHPortfolio/static/css/main.520ffc02.css.map",
-    "main.1557d1b3.js.map": "/RKHPortfolio/static/js/main.1557d1b3.js.map",
-    "787.1ed0c42c.chunk.js.map": "/RKHPortfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.520ffc02.css",
+    "main.js": "/react-portfolio/static/js/main.cf920bd5.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/event-finder.png": "/react-portfolio/static/media/event-finder.fd222fb33be7ef0bb2ab.png",
+    "static/media/D3-lawncare.png": "/react-portfolio/static/media/D3-lawncare.65001607bb0fcd41b90c.png",
+    "static/media/run-buddy.jpg": "/react-portfolio/static/media/run-buddy.6f63dff251a8b44a3677.jpg",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.efcfec244aeb9474bc2c.pdf",
+    "static/media/nim-portal.png": "/react-portfolio/static/media/nim-portal.70629b9d30cadd81a443.png",
+    "static/media/headshot.jpg": "/react-portfolio/static/media/headshot.e9509186d9c5744b2081.jpg",
+    "static/media/dash-of-weather.png": "/react-portfolio/static/media/dash-of-weather.6e03759af290e126582a.png",
+    "static/media/work-day-scheduler.png": "/react-portfolio/static/media/work-day-scheduler.75e0547dc0c29673200a.png",
+    "static/media/email.png": "/react-portfolio/static/media/email.f628a8f768c64821ae3d.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.520ffc02.css.map": "/react-portfolio/static/css/main.520ffc02.css.map",
+    "main.cf920bd5.js.map": "/react-portfolio/static/js/main.cf920bd5.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.520ffc02.css",
-    "static/js/main.1557d1b3.js"
+    "static/js/main.cf920bd5.js"
   ]
 }
