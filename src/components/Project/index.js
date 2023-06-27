@@ -108,10 +108,10 @@ function Project() {
               </a>
               <div className="project-details">
                 <h5 className="project-name">
-                  D<sup>3</sup> Lawn Care
+                  Run Buddy
                 </h5>
                 <a
-                  href="hhttps://github.com/RKH1988/run-buddy"
+                  href="https://github.com/RKH1988/run-buddy"
                   rel="noreferrer"
                   target="_blank"
                 >
