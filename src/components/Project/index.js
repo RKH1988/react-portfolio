@@ -96,7 +96,7 @@ function Project() {
           </div>
             <div className="container relative">
               <a
-                href="https://rkh1988/github.io/run-buddy/"
+                href="https://rkh1988.github.io/run-buddy/"
                 rel="noreferrer"
                 target="_blank"
                 title="Run Buddy, Inc."
