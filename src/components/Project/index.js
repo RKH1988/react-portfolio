@@ -57,7 +57,7 @@ function Project() {
                   D<sup>3</sup> Lawn Care
                 </h5>
                 <a
-                  href="https://github.com/JessicaM04/wheres-the-band"
+                  href="https://github.com/AaronMikelKey/d-cubed-lawncare"
                   rel="noreferrer"
                   target="_blank"
                 >
